@@ -286,7 +286,7 @@ function showResult() {
     finalTitle.textContent = "OMG! PUUR-FECT! 😽😈";
 
     finalMessage.textContent =
-      "That's my friend! I knew that you would crush itt 😎💗";
+      "That's my friend! I knew you would crush itt 😎💗";
 
   } else if (score >= 8) {
 
