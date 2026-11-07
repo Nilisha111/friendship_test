@@ -6,33 +6,33 @@
 const questions = [
   {
     text: "When is my birthday? 🎂",
-    options: ["January 11", "January 10", "February 11", "January 21"],
+    options: ["January 11", "January 10", "December 11", "December 21"],
     answer: 0,
   },
   {
     text: "What's my most-used app? 📱",
-    options: ["Instagram", "TikTok", "Pinterest", "YouTube"],
+    options: ["Instagram", "TikTok", "Duolingo", "YouTube"],
     answer: 0,
   },
   {
     text: "Which vehicle driving licence do I have? 🚗",
-    options: ["Motorcycle", "Car", "Both", "Neither"],
-    answer: 0,
+    options: ["Car", "Bike 😛😎", "Scooter", "Two of the above 😉"],
+    answer: 1,
   },
   {
     text: "What food could I eat repeatedly without getting bored? 🍜",
-    options: ["Pizza", "Momo", "Newari food", "Biryani"],
+    options: ["Keema noodle", "Momo", "Samya baji", "Chatpat"],
     answer: 2,
   },
   {
-    text: "What's my ideal free day? 🛋️",
+    text: "Which kind of show would probably catch my attension 🤫",
     options: [
-      "Going shopping",
-      "Going on a long hike",
-      "Watching movies or dramas",
-      "Studying something new",
+      "Adventure, myterious world and fantasy",
+      "Crime documentary",
+      "BL series",
+      "Live adaptation of an anime",
     ],
-    answer: 2,
+    answer: 0,
   },
   {
     text: "What kind of nail designs do I particularly enjoy? 💅",
@@ -50,17 +50,17 @@ const questions = [
       "I master it immediately",
       "I get obsessed, struggle, redo everything and try again",
       "I lose interest in five minutes",
-      "I never make mistakes",
+      "I learn pretty fast",
     ],
     answer: 1,
   },
   {
-    text: "What would I rather do? 🏃",
+    text: "What's one thing I really want to be able to do? 😛",
     options: [
-      "Go for a long walk",
-      "Go shopping",
-      "Stay in bed all day",
-      "Go for a run",
+      "Speak five languages fluently",
+      "Write a book in chinese",
+      "Watch chinese drama without subtitles",
+      "Become a chinese Teacher",
     ],
     answer: 2,
   },
@@ -80,7 +80,7 @@ const questions = [
       "Crochet",
       "Pushup",
       "Swimming",
-      "Drawing",
+      "Boxing",
     ],
     answer: 0,
   },
@@ -230,7 +230,7 @@ function checkAnswer(selectedIndex, selectedButton) {
 
     selectedButton.classList.add("correct");
 
-    feedback.textContent = "Yay! That's correct! 🎉";
+    feedback.textContent = "That's correct! 😙";
 
     feedback.classList.add("correct");
 
@@ -240,7 +240,7 @@ function checkAnswer(selectedIndex, selectedButton) {
 
     allButtons[q.answer].classList.add("correct");
 
-    feedback.textContent = "Oops! Not quite right! 💗";
+    feedback.textContent = "Noooo! YOU ARE WRONG! 💩";
 
     feedback.classList.add("wrong");
 
@@ -283,10 +283,10 @@ function showResult() {
 
     resultEmoji.textContent = "👑";
 
-    finalTitle.textContent = "OMG! PERFECT!";
+    finalTitle.textContent = "OMG! PUURFECT!";
 
     finalMessage.textContent =
-      "You're literally my soulmate! You know me TOO well! 💗";
+      "That's my friend! I knew that you would crush itt 😎💗";
 
   } else if (score >= 8) {
 
@@ -304,16 +304,16 @@ function showResult() {
     finalTitle.textContent = "Not bad at all!";
 
     finalMessage.textContent =
-      "We're friends... but do you even listen to me?";
+      "We're friends... but you should try harder 😀?";
 
   } else {
 
-    resultEmoji.textContent = "😭";
+    resultEmoji.textContent = "😒";
 
-    finalTitle.textContent = "WHO ARE YOU?";
+    finalTitle.textContent = "WHO ARE YOU!?";
 
     finalMessage.textContent =
-      "Have we even met? You need to know me better!";
+      "DON'T TALK TO ME!😑";
 
   }
 
