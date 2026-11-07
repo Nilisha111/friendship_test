@@ -47,10 +47,10 @@ const questions = [
   {
     text: "What happens when she start learning a new hobby? 😂",
     options: [
-      "I master it immediately",
-      "I get obsessed, struggle, redo everything and try again",
-      "I lose interest in five minutes",
-      "I learn pretty fast",
+      "She master it immediately",
+      "She get obsessed, struggle, redo everything and try again",
+      "She lose interest in five minutes",
+      "She learn pretty fast",
     ],
     answer: 1,
   },
@@ -304,7 +304,7 @@ function showResult() {
     finalTitle.textContent = "Not bad at all!";
 
     finalMessage.textContent =
-      "We're friends... but you should try harder 😀?";
+      "We're friends... but you should try harder 😀!";
 
   } else {
 
