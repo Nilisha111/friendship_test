@@ -5,27 +5,27 @@
 
 const questions = [
   {
-    text: "When is my birthday? 🎂",
+    text: "When is her birthday? 🎂",
     options: ["January 11", "January 10", "December 11", "December 21"],
     answer: 0,
   },
   {
-    text: "What's my most-used app? 📱",
+    text: "What's her most-used app? 🤠",
     options: ["Instagram", "TikTok", "Duolingo", "YouTube"],
     answer: 0,
   },
   {
-    text: "Which vehicle driving licence do I have? 🚗",
+    text: "Which vehicle driving licence does she have? 🛺",
     options: ["Car", "Bike 😛😎", "Scooter", "Two of the above 😉"],
     answer: 1,
   },
   {
-    text: "What food could I eat repeatedly without getting bored? 🍜",
+    text: "What food could she eat repeatedly without getting bored? 😛",
     options: ["Keema noodle", "Momo", "Samya baji", "Chatpat"],
     answer: 2,
   },
   {
-    text: "Which kind of show would probably catch my attension 🤫",
+    text: "Which kind of show would probably catch her attension 🤫",
     options: [
       "Adventure, myterious world and fantasy",
       "Crime documentary",
@@ -35,7 +35,7 @@ const questions = [
     answer: 0,
   },
   {
-    text: "What kind of nail designs do I particularly enjoy? 💅",
+    text: "What kind of nail designs does she particularly enjoy? 💅",
     options: [
       "Simple solid colours",
       "French tips and creative nail art",
@@ -45,7 +45,7 @@ const questions = [
     answer: 1,
   },
   {
-    text: "What happens when I start learning a new hobby? 😂",
+    text: "What happens when she start learning a new hobby? 😂",
     options: [
       "I master it immediately",
       "I get obsessed, struggle, redo everything and try again",
@@ -55,7 +55,7 @@ const questions = [
     answer: 1,
   },
   {
-    text: "What's one thing I really want to be able to do? 😛",
+    text: "What's one thing she really want to be able to do? 😛",
     options: [
       "Speak five languages fluently",
       "Write a book in chinese",
@@ -65,7 +65,7 @@ const questions = [
     answer: 2,
   },
   {
-    text: "Which is my Favourite anime?🧟‍♀️",
+    text: "Which is her Favourite anime?🧟‍♀️",
     options: [
       "Attack on Titan",
       "SpyXFamily",
@@ -75,7 +75,7 @@ const questions = [
     answer: 3,
   },
   {
-    text: "What am I currently interested in learning🤓? ",
+    text: "What is she currently interested to learn🤓? ",
     options: [
       "Crochet",
       "Pushup",
@@ -230,7 +230,7 @@ function checkAnswer(selectedIndex, selectedButton) {
 
     selectedButton.classList.add("correct");
 
-    feedback.textContent = "That's correct! 😙";
+    feedback.textContent = "GOOOOOD 🥳😙";
 
     feedback.classList.add("correct");
 
@@ -240,7 +240,7 @@ function checkAnswer(selectedIndex, selectedButton) {
 
     allButtons[q.answer].classList.add("correct");
 
-    feedback.textContent = "Noooo! YOU ARE WRONG! 💩";
+    feedback.textContent = "NOOO! YOU ARE WRONG! 💩";
 
     feedback.classList.add("wrong");
 
@@ -283,7 +283,7 @@ function showResult() {
 
     resultEmoji.textContent = "👑";
 
-    finalTitle.textContent = "OMG! PUURFECT!";
+    finalTitle.textContent = "OMG! PUUR-FECT! 😽😈";
 
     finalMessage.textContent =
       "That's my friend! I knew that you would crush itt 😎💗";
@@ -295,7 +295,7 @@ function showResult() {
     finalTitle.textContent = "You know me well!";
 
     finalMessage.textContent =
-      "Okayyy! You definitely pay attention to me! 💕";
+      "Okayyy! You definitely pay attention to me! ✨";
 
   } else if (score >= 5) {
 
