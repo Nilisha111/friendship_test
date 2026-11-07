@@ -65,24 +65,24 @@ const questions = [
     answer: 2,
   },
   {
-    text: "Which laptop did I recently buy? 💻",
+    text: "Which is my Favourite anime?🧟‍♀️",
     options: [
-      "MacBook Air",
-      "MacBook Pro",
-      "Windows laptop",
-      "iPad",
+      "Attack on Titan",
+      "SpyXFamily",
+      "Demons Slayer",
+      "One-Piece",
     ],
-    answer: 0,
+    answer: 3,
   },
   {
-    text: "What am I currently interested in learning? 👩‍💻",
+    text: "What am I currently interested in learning🤓? ",
     options: [
-      "Graphic design",
-      "Video editing",
-      "Full-stack development",
-      "Digital marketing",
+      "Crochet",
+      "Pushup",
+      "Swimming",
+      "Drawing",
     ],
-    answer: 2,
+    answer: 0,
   },
 ];
 
